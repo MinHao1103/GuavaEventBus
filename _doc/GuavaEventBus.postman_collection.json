@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "cd747cf8-4ed1-45de-96cc-776111a18364",
+		"name": "GuavaEventBus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26469706"
+	},
+	"item": [
+		{
+			"name": "使用者註冊",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"account\": \"0912345678\",\r\n    \"password\": \"123\",\r\n    \"mail\": \"test01@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/GuavaEventBus/api/Account/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"GuavaEventBus",
+						"api",
+						"Account",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
